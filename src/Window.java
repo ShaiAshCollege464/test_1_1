@@ -11,6 +11,7 @@ public class Window extends JFrame {
 
     public Window() {
         this.setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
+        //Write your code here
         this.setVisible(true);
     }
 }
