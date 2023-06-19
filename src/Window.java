@@ -1,3 +1,4 @@
+import ash.college.graphics.BallPanel;
 
 import javax.swing.*;
 
@@ -11,7 +12,8 @@ public class Window extends JFrame {
 
     public Window() {
         this.setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
-        //Write your code here
+        this.setResizable(false);
+        this.add(new BallPanel());
         this.setVisible(true);
     }
 }
